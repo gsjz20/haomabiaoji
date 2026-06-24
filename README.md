@@ -54,13 +54,13 @@ curl "https://tmini.net/api/haoma?phone=02039575218"
     "is_scam": true
   }
 }
-```json
+```
 ### 示例二：第三方聚合接口
 
 查询号码 `18888888888`：
 ```bash
 curl "https://tmini.net/api/PhoneInfo?phone=18888888888"
-```bash
+```
 返回结果：
 ```json
 {
@@ -77,7 +77,7 @@ curl "https://tmini.net/api/PhoneInfo?phone=18888888888"
   },
   "msg": "success"
 }
-```json
+```
 ## 📌 关键词标签
 
 **核心词**：号码标记、电话号码标记、来电显示、主叫号码显示(CLIP)、号码标注、号码标签(Number Tag)、骚扰拦截、号码标记查询、标记查询、号码标识查询、手机号标记检测
