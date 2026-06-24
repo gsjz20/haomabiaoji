@@ -37,11 +37,11 @@
 ### 示例一：小米平台
 
 查询号码 `02039575218`：
-
+```bash
 curl "https://tmini.net/api/haoma?phone=02039575218"
 
 返回结果：
-
+```json
 {
   "code": 200,
   "msg": "success",
@@ -58,11 +58,11 @@ curl "https://tmini.net/api/haoma?phone=02039575218"
 ### 示例二：第三方聚合接口
 
 查询号码 `18888888888`：
-
+```bash
 curl "https://tmini.net/api/PhoneInfo?phone=18888888888"
 
 返回结果：
-
+```json
 {
   "code": 0,
   "data": {
