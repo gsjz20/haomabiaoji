@@ -39,7 +39,7 @@
 查询号码 `02039575218`：
 ```bash
 curl "https://tmini.net/api/haoma?phone=02039575218"
-```bash
+```
 返回结果：
 ```json
 {
