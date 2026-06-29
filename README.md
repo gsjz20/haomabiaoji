@@ -9,7 +9,7 @@
 ## ✨ 特性
 
 - 🔍 **12 个免费 API**，覆盖主流号码标记数据源
-- ⚡ **高频调用**：大部分接口 30 次/分钟，满足日常开发需求
+- ⚡ **高频调用**：大部分接口 5 次/分钟，满足日常开发需求
 - 🏷️ **多维度标记识别**：骚扰电话、广告推销、诈骗电话、房产中介、快递送餐、企业认证、国家反诈等
 - 🌐 **归属地 + 运营商信息**：部分接口同时返回号码归属地与运营商
 - 🛠️ **开箱即用**：所有接口均为 GET 请求，返回 JSON 格式
@@ -19,18 +19,18 @@
 
 | 序号 | 平台 | 接口地址 | 频率 | 主要功能 |
 |:---:|------|----------|:----:|----------|
-| 1 | 小米 | `https://tmini.net/api/haoma` | 30次/分 | 广告推销/诈骗标签、标记次数 |
-| 2 | 泰迪熊 | `https://tmini.net/api/teddymobile` | 30次/分 | 号码有无异常标记 |
-| 3 | 华为 | `https://tmini.net/api/huaweibiaoji` | 30次/分 | 认证信息、分类与标记详情 |
-| 4 | 搜狗 | `https://tmini.net/api/qqhaoma` | 30次/分 | 骚扰/推销标签 + 归属地 + 运营商 |
-| 5 | 电话邦 | `https://tmini.net/api/dianhua` | 30次/分 | 机构认证、号码分类、归属地 |
-| 6 | 360 | `https://tmini.net/api/dianhua360` | 30次/分 | 认证号/标记号/普通号识别 |
-| 7 | 移动高频骚扰 | `https://tmini.net/api/querySys` | 30次/分 | 判断是否为高频骚扰号码 |
-| 8 | 百度 | `https://tmini.net/api/baiduphone` | 30次/分 | 企业认证号/个人号/标记号 |
-| 9 | 联通 | `https://tmini.net/api/unicom_number` | 30次/分 | 标记类型、次数、时间、申诉状态 |
+| 1 | 小米 | `https://tmini.net/api/haoma` | 5次/分 | 广告推销/诈骗标签、标记次数 |
+| 2 | 泰迪熊 | `https://tmini.net/api/teddymobile` | 5次/分 | 号码有无异常标记 |
+| 3 | 华为 | `https://tmini.net/api/huaweibiaoji` | 5次/分 | 认证信息、分类与标记详情 |
+| 4 | 搜狗 | `https://tmini.net/api/qqhaoma` | 5次/分 | 骚扰/推销标签 + 归属地 + 运营商 |
+| 5 | 电话邦 | `https://tmini.net/api/dianhua` | 5次/分 | 机构认证、号码分类、归属地 |
+| 6 | 360 | `https://tmini.net/api/dianhua360` | 5次/分 | 认证号/标记号/普通号识别 |
+| 7 | 移动高频骚扰 | `https://tmini.net/api/querySys` | 5次/分 | 判断是否为高频骚扰号码 |
+| 8 | 百度 | `https://tmini.net/api/baiduphone` | 5次/分 | 企业认证号/个人号/标记号 |
+| 9 | 联通 | `https://tmini.net/api/unicom_number` | 5次/分 | 标记类型、次数、时间、申诉状态 |
 | 10 | 百度（备用） | `https://tmini.net/api/baidubeiyong` | 3次/分 | 详细版归属地 + 标签 + POI |
-| 11 | 腾讯 | `https://tmini.net/api/txbiaoji` | 30次/分 | 商业营销/广告营销/机构电话等 |
-| 12 | 第三方聚合 | `https://tmini.net/api/PhoneInfo` | 30次/分 | 标记标签（含"国家反诈"等）+ 归属地 + 运营商 |
+| 11 | 腾讯 | `https://tmini.net/api/txbiaoji` | 5次/分 | 商业营销/广告营销/机构电话等 |
+| 12 | 第三方聚合 | `https://tmini.net/api/PhoneInfo` | 5次/分 | 标记标签（含"国家反诈"等）+ 归属地 + 运营商 |
 
 ## 🚀 快速开始
 
